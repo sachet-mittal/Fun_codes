@@ -1,4 +1,0 @@
-We have been debugging an issue in my setup today when the DE-s discovered that the tenant VM in question that had the issue has a duplicate mgmt. IP and MAC. Another VM (which is not in my setup) has the same mgmt. IP and MAC. We could not find out where that VM is, but the DE-s were able to find out it has been up for 14 days (Chirag and I had fun trying to confirm this and by luck when sshing to that IP we each logged into a different VM J).
-I’m sending you this email just in case it is in your setup since we had to power it off to see if it resolves the issue seen in this setup. If you detect a VM down (and can figure out if it had 10.156.211.226 as the eth0 mgmt IP) please don’t power it back on till later tomorrow and sorry for powering it off.
- 
-Hope it is in one of our setups and not in someone else’s setup.
