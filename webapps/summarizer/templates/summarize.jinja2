@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <title> Summarizer </title>
+    <body>
+        <form method="post" action="{{ url_for('summary') }}">
+            {{ form.hidden_tag() }}
+
+            {{ form.text(rows='30',cols='100') }}
+
+            {% if form.text.errors %}
+                Error: {{ ', '.join(form.text.errors) }}
+            {% endif %}
+
+            <br/>
+
+            <input type="submit" value="Summarize"/>
+        </form>
+        {% if result %}
+            {{ result }}
+        {% endif %}
+    </body>
+</html>
