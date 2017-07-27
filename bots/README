@@ -7,3 +7,9 @@ VALET_SLACK_TOKEN = xxxxxx
 VALET_SLACK_NAME = 'valet'
 VALET_SLACK_ID = xxxxx
 
+
+References:
+----------
+https://medium.com/@nidhog/how-to-make-a-chatbot-on-slack-with-python-82015517f19c
+https://github.com/gunthercox/ChatterBot
+
