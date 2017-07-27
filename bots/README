@@ -1,0 +1,9 @@
+A minimalistic chatbot for slack
+
+I used my keys, but if anyone is downloading this,
+Please create a bot_info.py in this folder 
+with 3 variables: 
+VALET_SLACK_TOKEN = xxxxxx
+VALET_SLACK_NAME = 'valet'
+VALET_SLACK_ID = xxxxx
+
